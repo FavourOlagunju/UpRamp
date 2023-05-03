@@ -8,8 +8,8 @@ class MyRobot(TimedRobot) :
     def robotInit(self):
         '''This method is called as the robot turns on and is often used to setup the
         joysticks and other presets.'''
-        self.controller =Joystick(0)
-        self.drivetrain=Drivetrain()
+        self.controller = Joystick(0)
+        self.drivetrain= Drivetrain()
         #self.
 
     def robotPeriodic(self):
